@@ -1,0 +1,1 @@
+Este repositório tem a intensão de armazenar as atividades feitas na disciplina de desenvolvimento mobile do 5° semestre do UniSenai. Ele armazena os exercícios e pode vir a armazenar o(s) projetos da disciplina!
