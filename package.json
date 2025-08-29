@@ -1,36 +1,15 @@
 {
-  "name": "exerciciosdesenv_mobile",
+  "name": "mobile-basics-ts",
   "version": "1.0.0",
-  "type": "module",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start",
-    "terreno": "ts-node src/01-sequential/terreno.ts",
-    "retangulo": "ts-node src/01-sequential/retangulo.ts",
-    "idades": "ts-node src/01-sequential/idades.ts",
-    "soma": "ts-node src/01-sequential/soma.ts",
-    "troco": "ts-node src/01-sequential/troco.ts",
-    "circulo": "ts-node src/01-sequential/circulo.ts",
-    "pagamento": "ts-node src/01-sequential/pagamento.ts",
-    "consumo": "ts-node src/01-sequential/consumo.ts",
-    "medidas": "ts-node src/01-sequential/medidas.ts",
-    "duracao": "ts-node src/01-sequential/duracao.ts",
-    "notas": "ts-node src/02-conditional/notas.ts",
-    "baskara": "ts-node src/02-conditional/baskara.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile.git"
+    "start": "ts-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile/issues"
-  },
-  "homepage": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile#readme",
+  "description": "",
   "dependencies": {
     "prompt-sync": "^4.2.0",
     "ts-node": "^10.9.2",
