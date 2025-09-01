@@ -10,10 +10,18 @@ const a1 = Number(prompt('Primeiro arremesso: '));
 const a2 = Number(prompt('Segundo Arremesso: '));
 const a3 = Number(prompt('Terceiro Arremesso: '));
 
-if (a1 > a2 && a1 > a3 || a1 == a2 && a1 != a3) {
+if (a1 > a2 && a1 > a3) {
     console.log(`Maior distância: ${a1}`)
-} else if (a2 > a3 && a2 > a1 || a2 == a1 && a2 != a3) {
+} else if (a2 > a1 && a2 > a3) {
     console.log(`Maior distância: ${a2}`)
+} else if(a3 > a1 && a3 > a2) {
+    console.log(`Maior distância: ${a3}`)
+} else if (a1 == a2 && a3 < a1 ) {
+    console.log(`Maior distância: ${a1}`)
+}else if(a2 == a3 && a1 < a2){
+    console.log(a2)
+} else if (a3 == a1 && a2 < a3) {
+    console.log(`Maior distância: ${a3}`)
 } else {
     console.log(`Maior distância: ${a3}`)
 };

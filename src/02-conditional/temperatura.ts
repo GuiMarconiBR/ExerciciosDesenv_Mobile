@@ -1,5 +1,9 @@
-//Problema "Inserir nome do problema"  
-/*Inserir descrição deste problema*/
+//Problema "temperatura"  
+/*Problema "temperatura"  
+Deseja-se converter uma medida de temperatura da escala Celsius para Fahrenheit ou vice-versa. Para 
+isso, você deve construir um programa que leia a letra "C" ou "F" indicando em qual escala vai ser 
+informada uma temperatura. Em seguida o programa deve mostrar a temperatura na outra escala com 
+duas casas decimais. A seguir é dada a fórmula para converter de Fahrenheit para Celsius.*/
 
 import promptSync from 'prompt-sync';
 const prompt = promptSync();

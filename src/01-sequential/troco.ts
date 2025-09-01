@@ -6,18 +6,13 @@ mostrar o valor do troco a ser devolvido ao cliente. */
 
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
-const limpar = console.clear;
 
-const preco = Number(prompt('Valor do produto: '))
-const tipo = typeof preco
-const qtd = Number(prompt('Quantidade do produto: '))
-const vCompra = Number(qtd * preco)
-const dinheiro = Number(prompt('Qual o valor em dinheiro: '))
+const preco = Number(prompt('Valor do produto: '));
+const qtd = Number(prompt('Quantidade do produto: '));
+const vCompra = Number(qtd * preco);
+const dinheiro = Number(prompt('Qual o valor em dinheiro: '));
 
-if(dinheiro > vCompra) {
-    const troco = dinheiro - vCompra
-    console.log('Troco:' + troco.toFixed(2))
-}else if (dinheiro < vCompra ) {
-    const troco = vCompra - dinheiro
-    console.log(`O valor total da compra é R$${vCompra} reais.Você pagou apenas R$${dinheiro.toFixed(2)} reais. Por gentileza, pague os R$${troco.toFixed(2)} reais que faltam para finalizarmos o pagamento das suas compras!`)
-}
+const troco = dinheiro - vCompra;
+
+console.log(`TROCO: ${troco}`);
+

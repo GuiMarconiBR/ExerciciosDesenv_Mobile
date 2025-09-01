@@ -7,9 +7,9 @@
     "start": "ts-node"
   },
   "keywords": [],
-  "author": "",
+  "author": "Guilherme Marconi",
   "license": "ISC",
-  "description": "",
+  "description": "Programas TypeScript do 5° período da graduação de desenvolvimento mobile.",
   "dependencies": {
     "prompt-sync": "^4.2.0",
     "ts-node": "^10.9.2",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "@types/prompt-sync": "^4.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile/issues"
+  },
+  "homepage": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile#readme"
 }
