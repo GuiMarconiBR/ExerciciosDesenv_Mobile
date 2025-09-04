@@ -1,5 +1,5 @@
 {
-  "name": "mobile-basics-ts",
+  "name": "exercicios",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile/issues"
   },
-  "homepage": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile#readme"
+  "homepage": "https://github.com/GuiMarconiBR/ExerciciosDesenv_Mobile#readme",
+  "type": "commonjs"
 }
